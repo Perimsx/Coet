@@ -14,6 +14,7 @@ export const dynamic = "force-dynamic";
 export async function generateMetadata(): Promise<Metadata> {
   return await genPageMetadata({
     title: "友链",
+    description: "Perimsx 的友情链接页面。在这里展示互相推荐的优质博客与技术站点，欢迎交换友链。",
     pathname: "/friends",
   });
 }
